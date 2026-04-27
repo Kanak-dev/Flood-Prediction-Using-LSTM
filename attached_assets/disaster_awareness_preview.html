@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preview — Disaster Awareness (Bootstrap)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      body { background: #f8f9fa; }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4 shadow-sm">
+          <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="#">
+                  <i class="fas fa-shield-alt me-2 text-primary"></i>Disaster Awareness
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="mainNavbar">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                      <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home me-1"></i>Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-comments me-1"></i>Chatbot</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-eye me-1"></i>Predict</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="#"><i class="fa fa-exclamation-triangle me-1"></i>Awareness</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-bullseye me-1"></i>Accuracy</a></li>
+                      <li class="nav-item ms-3 d-none d-lg-block"><a class="btn btn-sm btn-outline-primary" href="#"><i class="fas fa-question-circle me-1"></i>Quiz</a></li>
+                      <li class="nav-item ms-2 d-none d-lg-block"><a class="btn btn-sm btn-outline-success" href="#"><i class="fas fa-gamepad me-1"></i>Game</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="p-5 mb-5 bg-primary text-white rounded-3">
+          <div class="container-fluid py-4">
+              <div class="row align-items-center">
+                  <div class="col-lg-8">
+                      <h1 class="display-6 fw-bold">Disaster Awareness &amp; Preparedness</h1>
+                      <p class="lead">Learn how to stay safe during natural disasters like floods, landslides, earthquakes, and tsunamis. Knowledge saves lives.</p>
+                      <div class="d-flex gap-2 flex-wrap">
+                          <a href="#" class="btn btn-light btn-sm px-3"><i class="fas fa-phone-alt me-1"></i> Emergency Contacts</a>
+                          <a href="#" class="btn btn-light btn-sm px-3"><i class="fas fa-video me-1"></i> Videos</a>
+                          <a href="#" class="btn btn-outline-light btn-sm px-3"><i class="fas fa-question-circle me-1"></i> Quiz</a>
+                          <a href="#" class="btn btn-outline-light btn-sm px-3"><i class="fas fa-gamepad me-1"></i> Game</a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                      <img src="https://via.placeholder.com/320x160?text=Preparedness" alt="preparedness" class="img-fluid rounded" style="max-height:160px;">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Info Cards Section -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mb-5">
+          <div class="col">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body text-center">
+                      <div class="mb-3">
+                          <span class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width:72px;height:72px;"><i class="fas fa-water fa-2x"></i></span>
+                      </div>
+                      <h5 class="card-title">Flood Awareness</h5>
+                      <p class="card-text small">Flood warnings, evacuation planning, and protecting property and loved ones.</p>
+                      <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body text-center">
+                      <div class="mb-3">
+                          <span class="bg-warning text-dark rounded-circle d-inline-flex align-items-center justify-content-center" style="width:72px;height:72px;"><i class="fas fa-mountain fa-2x"></i></span>
+                      </div>
+                      <h5 class="card-title">Landslide Safety</h5>
+                      <p class="card-text small">Recognize warning signs and actions to minimise landslide risks.</p>
+                      <a href="#" class="btn btn-sm btn-warning">Learn More</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body text-center">
+                      <div class="mb-3">
+                          <span class="bg-danger text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width:72px;height:72px;"><i class="fas fa-house-damage fa-2x"></i></span>
+                      </div>
+                      <h5 class="card-title">Earthquake Preparedness</h5>
+                      <p class="card-text small">Steps to prepare, survive and recover from earthquakes.</p>
+                      <a href="#" class="btn btn-sm btn-danger">Learn More</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body text-center">
+                      <div class="mb-3">
+                          <span class="bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width:72px;height:72px;"><i class="fas fa-water fa-2x"></i></span>
+                      </div>
+                      <h5 class="card-title">Tsunami Information</h5>
+                      <p class="card-text small">Tsunami warnings, evacuation routes and life-saving practices.</p>
+                      <a href="#" class="btn btn-sm btn-info">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Emergency Prep & Tips -->
+      <div class="row g-4 mb-5">
+          <div class="col-lg-6">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title border-bottom pb-2 mb-3">Emergency Preparedness Kit</h5>
+                      <ul class="list-unstyled mb-0">
+                          <li class="d-flex align-items-start mb-3">
+                              <span class="badge bg-primary rounded-pill me-3"><i class="fas fa-tint"></i></span>
+                              <div>
+                                  <h6 class="mb-1">Water</h6>
+                                  <small class="text-muted">One gallon per person per day for at least three days.</small>
+                              </div>
+                          </li>
+
+                          <li class="d-flex align-items-start mb-3">
+                              <span class="badge bg-success rounded-pill me-3"><i class="fas fa-apple-alt"></i></span>
+                              <div>
+                                  <h6 class="mb-1">Food</h6>
+                                  <small class="text-muted">Non-perishable food for at least three days.</small>
+                              </div>
+                          </li>
+
+                          <li class="d-flex align-items-start mb-3">
+                              <span class="badge bg-danger rounded-pill me-3"><i class="fas fa-first-aid"></i></span>
+                              <div>
+                                  <h6 class="mb-1">First Aid Kit</h6>
+                                  <small class="text-muted">Medicines and essential medical supplies.</small>
+                              </div>
+                          </li>
+
+                          <li class="d-flex align-items-start mb-3">
+                              <span class="badge bg-warning text-dark rounded-pill me-3"><i class="fas fa-battery-full"></i></span>
+                              <div>
+                                  <h6 class="mb-1">Flashlight & Batteries</h6>
+                                  <small class="text-muted">Include extra batteries for emergency lighting.</small>
+                              </div>
+                          </li>
+
+                          <li class="d-flex align-items-start mb-0">
+                              <span class="badge bg-info rounded-pill me-3"><i class="fas fa-broadcast-tower"></i></span>
+                              <div>
+                                  <h6 class="mb-1">Radio</h6>
+                                  <small class="text-muted">Battery-powered or hand-crank radio for emergency updates.</small>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-6">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title border-bottom pb-2 mb-3">Disaster Safety Tips</h5>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Know your area's evacuation routes and shelter locations</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Have a family communication plan and meeting point</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Keep important documents in waterproof containers</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Sign up for emergency alerts and warnings</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Learn basic first aid and CPR</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Locate and learn how to shut off utilities</li>
+                          <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Have emergency contact information readily available</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="p-4 my-5 bg-danger text-white rounded-3">
+          <div class="row align-items-center">
+              <div class="col-md-9">
+                  <h3 class="mb-1">Are You Prepared for a Disaster?</h3>
+                  <p class="mb-0">Take our quiz to test your knowledge and learn how to better prepare yourself and your loved ones.</p>
+              </div>
+              <div class="col-md-3 text-md-end mt-3 mt-md-0">
+                  <a href="#" class="btn btn-light btn-lg px-4">
+                      <i class="fas fa-question-circle me-2"></i> Take the Quiz
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
